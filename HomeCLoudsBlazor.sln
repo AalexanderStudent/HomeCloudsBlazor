@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeCLoudsBlazor", "HomeCLoudsBlazor.csproj", "{9BB33038-7591-4DE6-8418-9BBEB965A811}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9BB33038-7591-4DE6-8418-9BBEB965A811}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BB33038-7591-4DE6-8418-9BBEB965A811}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BB33038-7591-4DE6-8418-9BBEB965A811}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BB33038-7591-4DE6-8418-9BBEB965A811}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
