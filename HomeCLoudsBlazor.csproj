@@ -9,4 +9,14 @@
       <_ContentIncludedByDefault Remove="wwwroot\css\bootstrap\bootstrap.min.css.map" />
     </ItemGroup>
 
+    <ItemGroup>
+      <PackageReference Include="MudBlazor" Version="5.0.6" />
+      <PackageReference Include="normalize.css" Version="3.0.2" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Data" />
+      <Folder Include="Shared" />
+    </ItemGroup>
+
 </Project>

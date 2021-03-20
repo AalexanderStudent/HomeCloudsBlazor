@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\dev\\c#\\HomeCloudsBlazor\\HomeCLoudsBlazor.csproj": {}
+    "C:\\Users\\docuc\\RiderProjects\\HomeCloudsBlazor\\HomeCLoudsBlazor.csproj": {}
   },
   "projects": {
-    "D:\\dev\\c#\\HomeCloudsBlazor\\HomeCLoudsBlazor.csproj": {
+    "C:\\Users\\docuc\\RiderProjects\\HomeCloudsBlazor\\HomeCLoudsBlazor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\dev\\c#\\HomeCloudsBlazor\\HomeCLoudsBlazor.csproj",
+        "projectUniqueName": "C:\\Users\\docuc\\RiderProjects\\HomeCloudsBlazor\\HomeCLoudsBlazor.csproj",
         "projectName": "HomeCLoudsBlazor",
-        "projectPath": "D:\\dev\\c#\\HomeCloudsBlazor\\HomeCLoudsBlazor.csproj",
+        "projectPath": "C:\\Users\\docuc\\RiderProjects\\HomeCloudsBlazor\\HomeCLoudsBlazor.csproj",
         "packagesPath": "C:\\Users\\docuc\\.nuget\\packages\\",
-        "outputPath": "D:\\dev\\c#\\HomeCloudsBlazor\\obj\\",
+        "outputPath": "C:\\Users\\docuc\\RiderProjects\\HomeCloudsBlazor\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\docuc\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,16 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "MudBlazor": {
+              "target": "Package",
+              "version": "[5.0.6, )"
+            },
+            "normalize.css": {
+              "target": "Package",
+              "version": "[3.0.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -57,7 +67,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }
