@@ -1,3 +1,8 @@
+.wrapper
+{
+    display: flex;
+}
+
 body
 {
     display: flex;
@@ -92,5 +97,26 @@ body
 {
     outline: none;
 
+}
+
+.top-menu
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    width: 70%;
+    height: 60px;
+    left: 40px;
+    top: 10px;
+
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    border-radius: 15px;
+}
+
+.top-menu-elem
+{
+    
 }
 

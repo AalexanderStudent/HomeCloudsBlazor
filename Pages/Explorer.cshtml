@@ -1,25 +1,25 @@
-﻿@page "/"
+﻿@page "/explorer"
 @model HomeCLoudsBlazor.Pages.Login
 @using HomeCLoudsBlazor.Components
 @namespace HomeCLoudsBlazor.Pages
 @addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
 @{
     Layout = null;
 }
 
+<!DOCTYPE html>
 
-<!doctype html>
-<html lang="en">
-  <head>
+<html>
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="css/site.css" rel="stylesheet"/>
-    <title>Login</title>
-    
-
-  </head>
-
+    <title>Explorer</title>
+</head>
     <body>
-        <component type="typeof(LoginComponent)" render-mode="ServerPrerendered" />
+        <div class="wrapper">
+        <component type="typeof(TopMenu)" render-mode="ServerPrerendered" />
+        </div>
     </body>
 </html>
